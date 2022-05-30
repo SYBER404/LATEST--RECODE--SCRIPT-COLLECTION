@@ -36,25 +36,21 @@ import base64
 import subprocess
 from concurrent.futures import ThreadPoolExecutor
 
-logo = """\033[1;92m  》》》》》》》》》》》》》》》》》》》》》》》》》》》》》  
-
-
+logo = """                
+\033[1;92m                                                                                                                                 
   \033[1;31m██╗░░██╗░█████╗░███████╗██╗███████╗██████╗░
   \033[1;31m██║░░██║██╔══██╗██╔════╝██║╚════██║██╔══██╗
   \033[1;31m███████║███████║█████╗░░██║░░███╔═╝██║░░██║
   \033[1;37m██╔══██║██╔══██║██╔══╝░░██║██╔══╝░░██║░░██║
   \033[1;37m██║░░██║██║░░██║██║░░░░░██║███████╗██████╔╝
  ╚═╝░░╚═╝╚═╝░░╚═╝╚═╝░░░░░╚═╝╚══════╝╚═════╝░
+NEW UPDATE V6 29/may/2022
 
-\033[93;1m   》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》
-\033[1;37m[\033[0;41;37m===========MULTI BRUTE FB===========\033[1;37;40m\033[1;32m] \033[1;37;40m
-           \033[1;47;40m╔═════════════════════════
-       \033[1;37;40m    ║   REGION \033[91;1m=Indonesia                     
-       \033[1;37;40m    ║InfoScript \033[92;1m=Premium                         
-       \033[1;37;40m    ║  AUTHOR \033[1;37m=HafizdXD       
-       \033[1;37;40m    ║  GITHUB   \033[1;37m=Github.Com.HafizdXD   
-           \033[1;47;40m╚═════════════════════════ """
 
+\033[1;37m[\033[0;41;37m===========INFO SC===========\033[1;37;40m\033[1;32m] \033[1;37;40m
+           
+\033[1;37;40m GITHUB:Github.Com.HafizdXD
+"""
 
 class Main:
 	def __init__(self):
@@ -107,8 +103,10 @@ class Main:
 
 	def api(self, uid, pwx):
 		ua = random.choice([
-			"Dalvik/1.6.0 (Linux; U; Android 4.4.2; NX55 Build/KOT5506) [FBAN/FB4A;FBAV/106.0.0.26.68;FBBV/45904160;FBDM/{density=3.0,width=1080,height=1920};FBLC/it_IT;FBRV/45904160;FBCR/PosteMobile;FBMF/asus;FBBD/asus;FBPN/com.facebook.katana;FBDV/ASUS_Z007;FBSV/5.0;FBOP/1;FBCA/x86:armeabi-v7a;]", 
-			"Mozilla/5.0 (Linux; Android 10; Mi 9T Pro Build/QKQ1.190825.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/88.0.4324.181 Mobile Safari/537.36[FBAN/EMA;FBLC/it_IT;FBAV/239.0.0.10.109;]"
+			"Mozilla/5.0 (BlackBerry; U; BlackBerry 9700; en) AppleWebKit/534.8+ (KHTML, like Gecko) Version/6.0.0.448 Mobile Safari/534.8+]"
+			"Mozilla/5.0 (BlackBerry; U; BlackBerry 9700; en) AppleWebKit/534.8+ (KHTML, like Gecko) Version/6.0.0.448 Mobile Safari/534.8+]"
+			"Mozilla/5.0 (Linux; Android 6.0; CAM-L21 Build/HUAWEICAM-L21) AppleWebKit/537.36 (KHTML, seperti Gecko) Chrome/56.0.2924.87 Mobile Safari/537.36]"
+			"NokiaC3-00/5.0 (07.20) Profil/MIDP-2.1 Konfigurasi/CLDC-1.1 Mozilla/5.0 AppleWebKit/420+ (KHTML, seperti Gecko) Safari/420+]"
 		])
 		sys.stdout.write(
 			"\r\r %s[HAFIZD-XD] : %s/%s -> \033[0;97m [CP:%s ] \033[0;97m[OK:%s ]"%(W,self.loop, len(self.id), len(self.ok), len(self.cp))
